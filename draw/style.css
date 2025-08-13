@@ -1,0 +1,23 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #8e44ad, #2980b9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: rgb(236, 213, 213);
+  font-family: Arial, sans-serif;
+}
+
+#photo-upload {
+  margin: 10px 0;
+}
+
+#drawing-canvas {
+  border: 2px solid white;
+  background: #fff;
+  max-width: 90vw;
+  max-height: 70vh;
+  cursor: default;
+}
